@@ -17,15 +17,15 @@ This folder contains instructions for browser automation. It is not a standalone
 
    | Question | Default |
    |---|---|
-   | Idea/Script | Supply a historical topic or your own script |
-   | Character | Daniel Reed, a fictional male presenter with a calm American English voice |
+   | Idea/Script | The Great Hedge of India, the forgotten 4,000 km thorn barrier built to enforce the salt tax |
+   | Character | Hariprasad Sharma, a 68-year-old Indian presenter speaking warm, unhurried Hinglish |
    | Ratio | Landscape 16:9; Vertical 9:16 is also supported |
    | Duration | 60 seconds total, up to 5 minutes |
 
 3. Reply with your choices. For example:
 
    ```text
-   Idea/Script: Explain the history of medieval London Bridge and how it was built.
+   Idea/Script: Explain the history of the Great Hedge of India and how it was built.
    Character: Keep the default.
    Ratio: Landscape.
    Duration: 120 seconds.
@@ -37,7 +37,9 @@ This folder contains instructions for browser automation. It is not a standalone
 
 **Presenter intro — at least 20 seconds:** A character sheet establishes the presenter. The agent saves it to My AI Images, uses it as a consistent-character reference for a location scene, then generates speaking clips with the same voice description. The intro gives context and introduces the history and construction story.
 
-**Historical documentary:** Ethan Sterling narration is created in CloneVoice. Watercolor-and-ink visuals illustrate who, when and why, followed by materials, tools, transport and building methods. Clothing, equipment and architecture follow the subject's period and location.
+**Historical documentary:** Hinglish narration is created in CloneVoice with a mature Hindi male voice. Watercolor-and-ink visuals illustrate who, when and why, followed by materials, tools, transport and building methods. Clothing, equipment and architecture follow the subject's period and location.
+
+**Language:** every spoken line is Hinglish — Hindi sentences carrying the English loanwords Indian speakers actually use ("salt tax", "customs line", "commissioner") — in both the presenter intro and the narration. The rules live in the `LANGUAGE LOCK` section of `SYSTEM_PROMPT.md`.
 
 **Active multi-shot clips:** Prompts use `Total duration` and timed `SHOT 1 / SHOT 2 / SHOT 3` sections, with hard cuts and distinct camera angles. Workers carry, pour, place, compact and build through connected actions. Asset IDs and internal labels stay out of generation text; subtitles and visible shot labels are not requested.
 
